@@ -8,7 +8,6 @@ import org.lwjgl.BufferUtils;
 import org.lwjgl.Sys;
 import org.lwjgl.opengl.GLContext;
 
-import java.nio.ByteBuffer;
 import java.nio.DoubleBuffer;
 
 import static org.lwjgl.glfw.GLFW.*;
