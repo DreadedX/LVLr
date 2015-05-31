@@ -24,7 +24,7 @@ public class Launcher extends LauncherBase{
 	@Override protected void run() {
 		System.setProperty("com.mtgames.scale", String.valueOf(scale.getValue()));
 
-		Game.main(new String[] { "" });
+		Editor.main(new String[] { "" });
 	}
 
 	@Override protected void consoleCommand(String s) {
