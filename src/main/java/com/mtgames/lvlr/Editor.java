@@ -152,8 +152,8 @@ public class Editor extends Game {
 		x.rewind();
 		y.rewind();
 
-		int xPos = (int) x.get() / 2 + screen.xOffset;
-		int yPos = (int) y.get() / 2 + screen.yOffset;
+		int xPos = (int) x.get() / scale + screen.xOffset;
+		int yPos = (int) y.get() / scale + screen.yOffset;
 
 		int xTile = xPos >> 4;
 		int yTile = yPos >> 4;
